@@ -9,6 +9,6 @@ const censor = (word, string) => {
   return string.replace(RegExp(word,"gi"), "BLEEP");
 };
 
-const violenceCensor = (string) => censor.bind('violence', string);
+const violenceCensor = (string) => censor('violence', string);
 
-const drugsCensor = (string) => censor.bind('drugs', string);
+const drugsCensor = (string) => censor('drugs', string);
