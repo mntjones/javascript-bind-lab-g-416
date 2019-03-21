@@ -10,3 +10,5 @@ const censor = (word, string) => {
 };
 
 const violenceCensor = censor.bind('violence', null);
+
+const drugsCensor = censor.bind('drugs', null);
