@@ -1,3 +1,3 @@
 const app = "I don't do much.";
 
-const digitalClock = {time: };
+const digitalClock = {time: Date.now(), startTicking:};
