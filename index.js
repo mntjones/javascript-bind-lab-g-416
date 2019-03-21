@@ -6,7 +6,7 @@ const digitalClock = {
 };
 
 const censor = (word, string) => {
-  return string.replace(word, "BLEEP");
+  return string.replace(/word/g, "BLEEP");
 };
 
 const violenceCensor = censor.bind('violence', null);
