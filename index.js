@@ -4,3 +4,7 @@ const digitalClock = {
   time: Math.round(Date.now() / 1000), 
   startTicking: function() { setInterval(() => this.time++, 1000); }
 };
+
+const censor = (word, string) => {
+  
+}
