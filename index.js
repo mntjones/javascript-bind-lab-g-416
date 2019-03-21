@@ -9,6 +9,4 @@ const censor = (word, string) => {
   return string.replace(word, "BLEEP");
 };
 
-const violenceCensor = () => {
-  
-}
+const violenceCensor = censor.bind()
